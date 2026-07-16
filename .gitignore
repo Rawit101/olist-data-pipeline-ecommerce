@@ -1,0 +1,75 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ===== Virtual Environment =====
+venv/
+.venv/
+ENV/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Environment Variables =====
+.env
+config/airflow.env
+config/minio.env
+
+# ===== Airflow =====
+logs/
+airflow-webserver.pid
+
+# ===== Data Files (too large for git) =====
+data/raw/*.csv
+data/raw/*.parquet
+data/processed/*.csv
+data/processed/*.parquet
+data/warehouse/*.duckdb
+data/warehouse/*.db
+data/rejected/*.csv
+
+# ===== Exports =====
+exports/*.csv
+exports/*.parquet
+
+# ===== DuckDB =====
+*.duckdb
+*.duckdb.wal
+
+# ===== MinIO Data =====
+minio_data/
+
+# ===== dbt =====
+dbt_olist/target/
+dbt_olist/dbt_packages/
+dbt_olist/logs/
+
+# ===== Reports =====
+reports/*.html
+reports/*.json
+
+# ===== Power BI (keep .pbix but ignore temp files) =====
+*.pbix.tmp
+~$*.pbix
+
+# ===== Jupyter Notebooks =====
+.ipynb_checkpoints/
+
+# ===== Docker =====
+docker-compose.override.yml
