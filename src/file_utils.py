@@ -34,7 +34,7 @@ def validate_csv_file(file_path: str, expected_columns: list = None) -> dict:
 
     # Check readability and get info
     try:
-        with open(path, "r", encoding="utf-8") as f:
+        with open(path, "r", encoding="utf-8-sig") as f:
             reader = csv.reader(f)
             header = next(reader)
             result["columns"] = header

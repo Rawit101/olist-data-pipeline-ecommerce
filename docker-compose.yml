@@ -139,7 +139,7 @@ services:
         mkdir -p /opt/airflow/data/raw /opt/airflow/data/processed
         mkdir -p /opt/airflow/data/warehouse /opt/airflow/data/rejected
         mkdir -p /opt/airflow/exports /opt/airflow/reports
-        exec airflow db init
+        airflow db init
         airflow users create \
           --username admin \
           --firstname Admin \

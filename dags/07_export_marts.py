@@ -24,12 +24,12 @@ default_args = {
 
 # Mart tables to export for Power BI
 MART_TABLES = [
-    "marts.mart_sales_overview",
-    "marts.mart_delivery_performance",
-    "marts.mart_product_analytics",
-    "marts.mart_customer_rfm",
-    "marts.mart_seller_ranking",
-    "marts.mart_geo_analysis",
+    "olist.mart_sales_overview",
+    "olist.mart_delivery_performance",
+    "olist.mart_product_analytics",
+    "olist.mart_customer_rfm",
+    "olist.mart_seller_ranking",
+    "olist.mart_geo_analysis",
 ]
 
 

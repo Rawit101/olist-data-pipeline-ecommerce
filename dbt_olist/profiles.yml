@@ -3,7 +3,7 @@ dbt_olist:
   outputs:
     dev:
       type: duckdb
-      path: ../data/warehouse/olist.db
+      path: ../data/warehouse/olist.duckdb
       extensions:
         - httpfs
         - parquet
